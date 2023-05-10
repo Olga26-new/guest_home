@@ -1,0 +1,48 @@
+.arrangements{
+    background: #FAF8F0;
+    text-align: center;
+    padding-top: 134px;
+    padding-bottom: 85px;
+    color: #52503B;
+
+    &__header{
+        font-size: 32px;
+        letter-spacing: 2px;
+        
+    }
+
+    &__description{
+        width: 554px;
+        margin: auto;
+        line-height: 23px;
+        padding-top: 16px;
+        letter-spacing: 1px;
+    
+    }
+
+    &__image{
+        width: 55px;
+        margin: auto;
+        margin-bottom: 14px;
+    }
+
+    &__option{
+        text-align: center;
+        width: 390px;
+    }
+
+    &__options{
+        display:flex;
+        margin-top: 28px;
+        justify-content: space-between;
+    }
+
+    &__option-description{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 4px;
+
+    }
+
+
+}

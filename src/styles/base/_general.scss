@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+button {
+
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type:none;
+}
+
+a{
+   text-decoration: none;
+   color: #ffffff; 
+}
+
+.center-block, .left-block{
+    position: relative;
+}
+
+.center-block::before{
+        display: block;
+        width: 42px;
+        height: 8px;
+        background-color: #E08631;
+        content: '';
+        position:absolute;
+        left: calc(50% - 20px);
+        top: 100px;
+}
+
+.left-block::before{
+    display: block;
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
+    content: '';
+    position:absolute;
+    left: 20px;
+    top: 100px;
+}
+
+
+
+

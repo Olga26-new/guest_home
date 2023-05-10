@@ -1,0 +1,47 @@
+.services{
+
+    padding-top: 105px;
+    padding-left: 15px;
+    padding-bottom: 82px;
+
+    &__list{
+        display: flex;
+        padding-top: 50px;
+        padding-top: 34px;
+    }
+
+    &__list-1{
+        width: 56%;
+    }
+
+    &__item{
+        display: flex;
+        margin-bottom: 46px;
+
+    }
+    &__description{
+        font-size: 16px;
+        line-height: 24px;
+        width: 554px;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+
+    &__icon {
+        width: 36px;
+        margin-right: 17px;
+        display: flex;
+    }
+
+    &__icon img {
+        margin: auto;
+    }
+
+    &__name{
+        font-size: 32px;
+        line-height:36px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        margin-bottom: 13px;
+    }
+}

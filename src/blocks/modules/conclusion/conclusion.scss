@@ -1,0 +1,94 @@
+.conclusion{
+
+    &__wrapper{
+        display: flex;
+        padding-top: 94px;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-bottom: 66px;
+    }
+
+    &__block1{
+        margin-top: 6px;
+    }
+
+    &__tagline{
+        font-size: 32px;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+
+    &__text{
+        line-height: 23px;
+        letter-spacing: 1px;
+    }
+
+    &__item{
+        display: flex;
+        width: 260px;
+        margin-bottom: 60px;
+    }
+
+    &__block2{
+        display: flex;
+        width: 560px;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+
+    &__icon{
+        width: 36px;
+        display:flex;
+        margin-right: 16px;
+    }
+
+    &__icon img{
+        margin: auto;
+    }
+
+    &__description{
+        line-height: 20px;
+    }
+
+    &__offer{
+        background: #FAF8F0;
+        text-align: center;
+        padding-top: 107px;
+        padding-bottom: 98px;
+    }
+
+    &__main-offer{
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 2px;
+        margin-bottom: 14px;
+    }
+
+    &__wrapper-offer{
+        width: 533px;
+        margin: auto;
+    }
+
+    &__text-offer{
+        letter-spacing: 1px;
+        line-height: 24px;
+        margin-bottom: 17px;
+    }
+
+    &__button{
+        border: 4px solid #52503B;
+        padding: 15px 27px 11px 19px;
+    }
+
+    &__button-1{
+        color: #52503B;
+        background: #FAF8F0;
+        margin-right: 15px;
+    }
+
+    &__button-2{
+        background: #52503B;
+        color: #FFFFFF;
+    }
+
+}

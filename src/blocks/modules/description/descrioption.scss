@@ -1,0 +1,41 @@
+.information{
+    background:  #FAF8F0;
+    padding: 142px 0 60px 0;
+   
+    &__wrapper{
+        display: flex;
+        margin: 0 auto;
+        width: 760px;
+        justify-content: space-between;
+    }
+   
+
+    &__column{
+      line-height: 20px;
+      width: 360px;
+
+    }
+
+    &__button{
+        font-size: 14px;
+        background: #52503B;
+        margin: 40px 0;
+        padding: 14px 28px 14px 14px;
+        border: none;
+        color: white;
+    }
+   
+}
+
+.main_description{
+    font-weight: 700;
+    font-size: 96px;
+    color: #52503B;
+    text-align: center;
+    line-height: 101px;
+    margin: 0px;
+    padding-top: 142px;
+    padding-bottom: 127px;
+}
+
+

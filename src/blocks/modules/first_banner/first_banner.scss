@@ -1,0 +1,23 @@
+.first_banner{
+    background-image: url(../../../img/Banner.png);
+    height: 760px;
+    color: white;
+    text-align: center;
+
+    &__logo{
+        margin-top: 249px;
+    }
+
+    &__description{
+        font-size: 48px;
+        margin-top: 29px;
+        margin-bottom: 30px;
+        letter-spacing: 3px;
+    }
+
+    &__location{
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;  
+    }
+}
