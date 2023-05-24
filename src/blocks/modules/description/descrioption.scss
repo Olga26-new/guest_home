@@ -20,22 +20,27 @@
         font-size: 14px;
         background: #52503B;
         margin: 40px 0;
-        padding: 14px 28px 14px 14px;
+        padding: 11px 18px;
         border: none;
         color: white;
     }
    
+    &__main_description{
+        font-weight: 700;
+        font-size: 96px;
+        color: #52503B;
+        text-align: center;
+        line-height: 101px;
+        margin: 0px;
+        padding-top: 142px;
+        padding-bottom: 127px;
+    }
+
+    &__description_photo{
+        width: 100%;
+    }
 }
 
-.main_description{
-    font-weight: 700;
-    font-size: 96px;
-    color: #52503B;
-    text-align: center;
-    line-height: 101px;
-    margin: 0px;
-    padding-top: 142px;
-    padding-bottom: 127px;
-}
+
 
 

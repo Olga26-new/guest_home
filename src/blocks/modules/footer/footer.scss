@@ -26,7 +26,6 @@
 
     &__icon-media{
         margin-right: 20px;
-        width: 50%;
     }
 
     &__all-media{
@@ -35,8 +34,11 @@
     }
 
     &__email{
+        width: 50%;
+    }
+
+    &__feedback{
         position: relative;
-        width: 576px;
     }
 
     &__description{
@@ -62,9 +64,10 @@
         color: #ffffff;
        background: #52503B;
         border: none;
-        top: 78px;
-        right: 9px;
-        padding: 7px 3px 8px 3px;
+        top: 11px;
+        right: 10px;
+        padding: 5px;
+        line-height: 20px;
         
     }
 

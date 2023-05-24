@@ -77,7 +77,7 @@
 
     &__button{
         border: 4px solid #52503B;
-        padding: 15px 27px 11px 19px;
+        padding: 16px 26px;
     }
 
     &__button-1{
@@ -89,6 +89,10 @@
     &__button-2{
         background: #52503B;
         color: #FFFFFF;
+    }
+
+    &__banner{
+        width: 100%;
     }
 
 }
